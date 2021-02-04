@@ -1,6 +1,12 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200");
 
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
 a {
   font-size: 30px;
   margin: 20px;
@@ -26,6 +32,17 @@ h1 {
   justify-content: center;
   font-family: sans-serif;
   color: coral;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: rgb(243, 157, 149);
+  border-radius: 5px;
+  margin: 15px;
 }
 
 .container {
@@ -36,17 +53,10 @@ h1 {
   font-family: sans-serif;
 }
 
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  background-color: rgb(243, 157, 149);
-}
-
 .grid-container {
   columns: 5 200px;
   column-gap: 1.5rem;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
 }
 
